@@ -6,4 +6,4 @@ def square(s):
 
 
 length = float(input("Введите сторону квадрата: "))
-print(f"Площадь квадрата равна {(square(length))}")
+print(f"Площадь квадрата равна: {(square(length))}")

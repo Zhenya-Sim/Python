@@ -4,4 +4,4 @@ def is_year_leap(year):
 
 y = int(input("Введите год: "))
 result = is_year_leap(y)
-print(f"год {y}: {result}")
+print(f"Год {y}: {result}")
