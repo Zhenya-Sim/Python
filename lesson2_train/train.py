@@ -4,8 +4,7 @@ employee_list = ["John Snow"
                  "Dracula"
                  "Ivan IV"
                  "Moana"
-                 "Juliet"
-                 "Draco Malfoy"]
+                 "Juliet"]
 print(employee_list[1] + ", " + employee_list[-2])
 
 # задание 2
