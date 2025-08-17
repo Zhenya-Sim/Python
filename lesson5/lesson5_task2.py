@@ -9,7 +9,7 @@ driver = webdriver.Chrome(
 
 driver.maximize_window()
 
-driver.get("http://uitestingplayground.com/classattr")
+driver.get("http://uitestingplayground.com/dynamicid")
 
 blue_but = driver.find_element(
         By.CSS_SELECTOR, ".btn-primary").click
