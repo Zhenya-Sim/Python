@@ -3,15 +3,17 @@ from selenium import webdriver
 from selenium.webdriver.chrome.service import Service as ChromeService
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.by import By
-from selenium.webdriver.common.keys import Keys
 
-driver = webdriver.Chrome(
+browser = webdriver.Chrome(
     service=ChromeService(ChromeDriverManager().install()))
 
-driver.get("https://www.google.com/")
+browser.get("https://www.seleniumeasy.com/test/basic-checkbox-demo.html")
+browser.implicitly_wait(5)
 
-search_input = driver.find_element(By.NAME, "q")
-search_input.send_keys("Selenium")
-search_input.send_keys(Keys.RETURN)
+button = browser.find_element(By.ID, "check1")
+button.click()
 
-sleep(5)
+print("Элемент 'Check All' найден и кликнут")
+
+sleep(2)
+browser.quit()
