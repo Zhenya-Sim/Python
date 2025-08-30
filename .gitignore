@@ -206,13 +206,16 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 
-# .gitingore lesson1_train/
-# .gitingore lesson1/
-# .gitingore lesson2_train/
-# .gitingore lesson2/
-# .gitingore lesson3_train/
-# .gitingore lesson3/
-# .gitingore lesson4_train/
-# .gitingore lesson4/
-# .gitingore lesson5_train/
-# .gitingore lesson5/
+.gitingore Python
+.gitingore lesson1_train/
+.gitingore lesson1/
+.gitingore lesson2_train/
+.gitingore lesson2/
+.gitingore lesson3_train/
+.gitingore lesson3/
+.gitingore lesson4_train/
+.gitingore lesson4/
+.gitingore lesson5_train/
+.gitingore lesson5/
+.gitingore lesson6_train/
+.gitingore lesson6/
