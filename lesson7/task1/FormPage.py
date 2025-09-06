@@ -45,10 +45,10 @@ class FormPage:
 
     def check_success(self):
         fields = [
-            "first-name", "last-name", "address", "city", "country"
+            "first-name", "last-name", "address", "city", "country",
             "e-mail", "phone", "job-position", "company"
         ]
         for field in fields:
             if "success" not in self.get_field_class(field):
                 return False
-            return True
+        return True
