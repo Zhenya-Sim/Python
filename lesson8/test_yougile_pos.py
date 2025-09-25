@@ -6,8 +6,8 @@ token = None
 project_id = None
 
 
-def get_company_id(login='simonova.evd21597@gmail.com',
-                   password=':tyz_Cbvjyjdf', company_name='Поток_QA_100.2'):
+def get_company_id(login='логин',
+                   password='пароль', company_name='Поток_QA_100.2'):
     creds = {
             'login': login,
             'password': password,
@@ -21,8 +21,8 @@ def get_company_id(login='simonova.evd21597@gmail.com',
     return company_id
 
 
-def get_token(login='simonova.evd21597@gmail.com',
-              password=':tyz_Cbvjyjdf', new_id=company_id):
+def get_token(login='логин',
+              password='пароль', new_id=company_id):
     new_id = get_company_id()
     creds = {
             'login': login,
